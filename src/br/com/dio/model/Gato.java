@@ -75,6 +75,11 @@ public class Gato {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
+	}
 	
 	
 	
